@@ -12,6 +12,17 @@ body {
 }
 .link {
     color: #2e2f42;
+    text-decoration: none; 
+}
+.Logotip {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none; 
 }
 .Logo {
     font-family: "Raleway", sans-serif;
@@ -20,7 +31,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
     text-decoration: none; 
 }
 .list {
@@ -33,12 +44,28 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.navigator {
+.navi {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-decoration: none; 
     list-style: none;
-    font-weight: 500;
+    color: #2e2f42;
+}
+.li2s {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.li3s {
+    background-color: #FFFFFF;
+}
+.hh-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -56,14 +83,14 @@ body {
 .hero {
     background-color: #2e2f42;
 }
-.h1 {
+.heroh1 {
     font-size: 56px; 
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.bHero {
+.bhero {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -76,6 +103,9 @@ body {
 .bHero:focus {
     background-color: #404BBF;
     cursor: pointer;
+}
+.Sec3 {
+    background-color: #F4F4FD;
 }
 .advantages {
     font-weight: 500;
