@@ -48,6 +48,9 @@ ul {
 .link {
   text-decoration: none;
 }
+.studio-h {
+    color: #2e2f42;
+}
 .logo {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
@@ -67,6 +70,13 @@ ul {
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
 }
+.nav-link {
+    color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus {
+   color: #404bbf;
+}
 .address {
   font-style: normal;
 }
@@ -80,17 +90,17 @@ ul {
 .address-link:focus {
   color: #404bbf;
 }
-.btnall {
-  font-family: 'Roboto', sans-serif;
+.btn-all {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.btnall:hover,
-.btnall:focus {
+.btn-all:hover,
+.btn-all:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -106,6 +116,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+}
+.portofilo-list {
+    list-style: none;
 }
 .footer {
     background-color: #2e2f42;
