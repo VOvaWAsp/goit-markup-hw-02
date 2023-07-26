@@ -58,7 +58,7 @@ ul {
   text-transform: uppercase;
 }
 .studio {
-  color: var(--navyblue, #2e2f42);
+  color: #f4f4fd;
 }
 .nav {
   font-weight: 500;
@@ -106,4 +106,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+}
+.footer {
+    background-color: #2e2f42;
 }
