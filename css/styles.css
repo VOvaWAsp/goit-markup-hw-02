@@ -1,148 +1,109 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 :root {
-  --navyblue: #2e2f42;
-  --slate: #434455;
-  --hero: #fff;
-  --buttonHero: #4d5ae5;
-  --cloud: #f4f4fd;
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --white: #fff;
+    --ocean: #404BBF;
+    --cloud: #F4F4FD;
 }
-.link {
-    color: #2e2f42;
-    text-decoration: none; 
+.hero {
+    background-color: #2e2f42;
 }
-.Logotip {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none; 
-}
-.Logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-    text-decoration: none; 
-}
-.list {
-    text-decoration: none;
-    list-style: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.navi {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.heroh1 {
+    font-size: 56p;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
-    text-decoration: none; 
-    list-style: none;
-    color: #2e2f42;
-}
-.li2s {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.li3s {
-    background-color: #FFFFFF;
+    color: #ffffff;
 }
 .hh-3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--navyblue, #2E2F42);
 }
-.link:hover,
-.link:focus {
-    color: #404bbf;
-}
-.address {
-    font-style: normal; 
-}
-.list:hover,
-.list:focus {
-    color: #404bbf;
-}
-.hero {
-    background-color: #2e2f42;
-}
-.heroh1 {
-    font-size: 56px; 
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-.bhero {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-}
-.bHero:hover,
-.bHero:focus {
-    background-color: #404BBF;
-    cursor: pointer;
-}
-.Sec3 {
-    background-color: #F4F4FD;
-}
-.advantages {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.par {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.wedoing {
+.hs-2 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--navyblue, #2E2F42);
 }
-.footer {
-    background-color: #2e2f42;
+.sec3s {
+    background-color: #F4F4FD;
 }
-.btns {
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    color: var(--iris, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.studio {
+    color: var(--navyblue, #2E2F42);
+}
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
+}
+.address {
+    font-style: normal;
+}
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate, #434455);
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+.btnall {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--iris, #4D5AE5);
     background-color: #F4F4FD;
 }
-.btns:hover,
-.btns:focus {
+.btnall:hover,
+.btnall:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-    cursor: pointer;
+}
+.hp-2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
+}
+.par1p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate, #434455);
 }
