@@ -21,14 +21,14 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.caption3 {
+.captionst {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
 }
-.caption2 {
+.captions {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -40,7 +40,7 @@ body {
   background-color: #f4f4fd;
 }
 .uls {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 a {
   text-decoration: none;
@@ -73,11 +73,11 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.n-link {
+.stu {
     color: #2e2f42;
 }
-.n-link:hover,
-.n-link:focus {
+.stu:hover,
+.stu:focus {
     color: #404bbf;
 }
 .address {
