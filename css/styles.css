@@ -83,17 +83,17 @@ ul {
 .nav-link:focus {
     color: #404bbf;
 }
-.link-address {
+.address {
   font-style: normal;
 }
-.link-address {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
 }
-.link-address:hover,
-.link-address:focus {
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
 .btnh {
