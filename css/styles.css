@@ -73,11 +73,11 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.stu {
+.nav-link {
     color: #2e2f42;
 }
-.stu:hover,
-.stu:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 .address {
