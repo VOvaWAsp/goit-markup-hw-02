@@ -48,6 +48,9 @@ a {
 ul {
   list-style-type: none;
 }
+.list {
+    background-color: #FFFFFF;
+}
 .link {
   text-decoration: none;
 }
