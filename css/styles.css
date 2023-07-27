@@ -86,14 +86,14 @@ ul {
 .address {
   font-style: normal;
 }
-.contact {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
 }
-.contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 .btnh {
