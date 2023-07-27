@@ -14,21 +14,21 @@ body {
 .hero {
   background-color: #2e2f42;
 }
-.heroh1 {
-  font-size: 56p;
+.heroh {
+  font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hh-3 {
+.hh3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
 }
-.hs-2 {
+.hs2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -38,6 +38,9 @@ body {
 }
 .sec3s {
   background-color: #f4f4fd;
+}
+.uls {
+    background-color: #FFFFFF
 }
 a {
   text-decoration: none;
@@ -70,12 +73,12 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navlink {
+.nav-l {
     color: #2e2f42;
 }
-.navlink:hover,
-.navlink:focus {
-   color: #404bbf;
+.nav-l:hover,
+.nav-l:focus {
+    color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -89,6 +92,19 @@ ul {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+.btnh {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.btnh:hover,
+.btnh:focus {
+    color: #404BBF;
+    cursor: pointer;
 }
 .btn-all {
   font-family: "Roboto", sans-serif;
