@@ -103,6 +103,7 @@ ul {
 .btn-all:focus {
   color: #ffffff;
   background-color: #404bbf;
+  cursor: pointer;
 }
 .hp-2 {
   font-weight: 500;
