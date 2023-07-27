@@ -69,18 +69,16 @@ ul {
 .studio {
   color: #f4f4fd;
 }
-.nav {
-  font-weight: 500;
+.nav-link {
+    color: #2e2f42;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  
 }
-.link-nav {
-    color: #2e2f42;
-}
-.link-nav:hover,
-.link-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 .address {
